@@ -8,7 +8,7 @@
     <link rel="icon" href="assets/castleicon.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&family=Quintessential&family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&family=Quintessential&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -37,23 +37,29 @@
     </nav>
 
     <!-- Main Body -->
-    <form>
-        <div class="card-body">
-            <div class="form-group">
-                <label for="exampleFormControlInput1"><strong>Name</strong></label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jane Smith">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <form>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"><strong>Name</strong></label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Jane Smith">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1"><strong>Email Address</strong></label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1"><strong>Message</strong></label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div> 
+                        <input class="btn btn-outline-info" type="submit" value="Submit">
+                    </div> 
+                </form> 
             </div>
-            <div class="form-group">
-                <label for="exampleFormControlInput1"><strong>Email Address</strong></label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1"><strong>Message</strong></label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div> 
-            <input class="btn btn-outline-info" type="submit" value="Submit">
-        </div> 
-    </form> 
+        </div>
+    </div>
 
 </body>
 
