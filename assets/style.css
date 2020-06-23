@@ -6,6 +6,10 @@ body {
 }
 
 .card-title {
-    font-family: 'Quintessential', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size: 40px;
+}
+
+.text-center {
+    background: #fdfbf5;
 }
