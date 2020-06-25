@@ -16,10 +16,8 @@ https://nikcastle.github.io/mobile-responsive-portfolio/
 
 ## Screenshot
 Screenshot of About Me page
-![screenshot-about-me][About-Me-screenshot.png]
-![screenshot-about-me][Contact-screenshot.png]
-![screenshot-about-me][Portfolio-screenshot.png]
-
 <img src="assets/About-Me-screenshot.png">
+Screenshot of Contact page
 <img src="assets/Contact-screenshot.png">
+Screenshot of Portfolio page
 <img src="assets/Portfolio-screenshot.png">
