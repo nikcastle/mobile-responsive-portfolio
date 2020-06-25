@@ -15,5 +15,7 @@ The portfolio will include links to projects (to be completed in the future) and
 https://nikcastle.github.io/mobile-responsive-portfolio/
 
 ## Screenshot
-<!-- Add a screenshot of the site here, or multiple screenshots -->
-
+![Screenshot of About Me page]
+<img src="assets/About-Me-screenshot.png">
+<img src="assets/Contact-screenshot.png">
+<img src="assets/Portfolio-screenshot.png">
