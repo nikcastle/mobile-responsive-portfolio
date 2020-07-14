@@ -1,7 +1,7 @@
 
 
 body {
-    /* background: #FCFCFB; */
+    background-color: white;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -11,14 +11,18 @@ body {
 }
 
 .text-center {
-    /* background: #FCFCFB; */
+    background-color: white;
 }
 
 .portfolio {
-    /* background: #FCFCFB; */
+    background-color: white;
 }
 
 .card-img-top {
     border-bottom: solid 1px lightgray;
 
+}
+
+.port-card {
+    border: solid 2px #6C6A64;
 }
