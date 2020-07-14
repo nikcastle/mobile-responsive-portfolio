@@ -17,3 +17,8 @@ body {
 .portfolio {
     background: #fdfbf5;
 }
+
+.card-img-top {
+    border-bottom: solid 1px lightgray;
+
+}
