@@ -1,19 +1,87 @@
-
-
 body {
     background-color: white;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  
 }
 
-.logos {
-    margin-top: 30px;
+footer {
+    flex: 1 0 auto;
+  }
+
+nav {
+    background-color: #FDB632;
 }
 
-.card-title {
+.wrapper {
+    margin-top: 10px;
+}
+
+.index-title {
+    text-align: center;
+    margin: 60px;
+}
+
+.name {
+    margin-bottom: 30px;
+}
+
+.first, 
+.second,
+.third,
+.fourth {
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.menu {
+    color: #027878;
+}
+
+.first {
+    background-image: url(/assets/images/burgerapp.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    border: solid #801638 8px;
+}
+
+.second {
+
+    border: solid #027878 8px;
+}
+
+.third {
+    border: solid #FDB632 8px;
+}
+
+.fourth {
+    border: solid #F37338 8px;
+}
+
+.bridge {
+    width: auto;
+}
+
+.title {
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     margin-top: 20px;
     text-emphasis-style: capitalize;
+}
+
+.blurb {
+    vertical-align: center;
+}
+
+.submitBtn {
+    background-color: #801638;
+    border-radius: 10px;
+    color: white;
+    padding: 20px 40px;
 }
 
 .text-center {
@@ -32,3 +100,19 @@ body {
 .port-card {
     border: solid 2px #6C6A64;
 }
+
+.waves-effect.waves-brown .waves-ripple {
+    /* The alpha value allows the text and background color
+    of the button to still show through. */
+     background-color: rgba(121, 85, 72, 0.65);
+   }
+
+   header, main, footer {
+    padding-left: 300px;
+  }
+
+  @media only screen and (max-width : 992px) {
+    header, main, footer {
+      padding-left: 0;
+    }
+  }
