@@ -41,7 +41,7 @@ nav {
 }
 
 .first {
-    background-image: url(/assets/images/burgerapp.png);
+    background-image: url("/assets/images/sunset-road.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -50,15 +50,29 @@ nav {
 }
 
 .second {
-
+    background-image: url("/assets/images/autumn-path.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     border: solid #027878 8px;
 }
 
 .third {
+    background-image: url("/assets/images/winter-walk.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     border: solid #FDB632 8px;
 }
 
 .fourth {
+    background-image: url("/assets/images/waterfall.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
     border: solid #F37338 8px;
 }
 
@@ -92,7 +106,7 @@ nav {
     background-color: white;
 }
 
-.card-img-top {
+.card-img {
     border-bottom: solid 1px lightgray;
 
 }
