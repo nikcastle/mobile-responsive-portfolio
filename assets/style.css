@@ -15,6 +15,10 @@ nav {
     background-color: #FDB632;
 }
 
+.container {
+    margin-top: 100px;
+}
+
 .wrapper {
     margin-top: 10px;
 }
@@ -41,38 +45,22 @@ nav {
 }
 
 .first {
-    background-image: url("/assets/images/sunset-road.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    
     border: solid #801638 8px;
 }
 
 .second {
-    background-image: url("/assets/images/autumn-path.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    
     border: solid #027878 8px;
 }
 
 .third {
-    background-image: url("/assets/images/winter-walk.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    
     border: solid #FDB632 8px;
 }
 
 .fourth {
-    background-image: url("/assets/images/waterfall.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
+    
     border: solid #F37338 8px;
 }
 
@@ -82,20 +70,39 @@ nav {
 
 .title {
     font-family: 'Open Sans', sans-serif;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 20px;
     text-emphasis-style: capitalize;
 }
 
 .blurb {
+   
     vertical-align: center;
 }
 
-.submitBtn {
+.flow-text {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.submitBtn,
+.sayHiBtn,
+.upClose {
+    align-items: center;
     background-color: #801638;
     border-radius: 10px;
     color: white;
-    padding: 20px 40px;
+}
+
+.sayHiBtn {
+    padding: 10px 40px;
+}
+
+.modal {
+    align-items: center;
+    border: solid #027878 3px;
+    border-radius: 10px;
+   
 }
 
 .text-center {
@@ -106,10 +113,10 @@ nav {
     background-color: white;
 }
 
-.card-img {
+/* .card-img {
     border-bottom: solid 1px lightgray;
 
-}
+} */
 
 .port-card {
     border: solid 2px #6C6A64;
